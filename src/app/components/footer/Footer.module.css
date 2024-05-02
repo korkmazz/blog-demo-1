@@ -76,6 +76,15 @@
   gap: 30px;
 }
 
+.footerBlock:first-of-type,
+.footerBlock:last-of-type {
+  width: 200px;
+}
+
+.footerBlock:first-of-type {
+  align-items: flex-end;
+}
+
 .footerLinkBlocks {
   display: flex;
   flex-direction: column;
@@ -89,20 +98,6 @@
   font-size: 11px;
 }
 
-.logo {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-  transform: translateY(-14px);
-}
-
-.logoText {
-  color: white;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
 .socialMedia {
   display: flex;
   gap: 40px;
@@ -110,7 +105,7 @@
 
 .copyRightRow {
   width: 100%;
-  padding: 40px 40px 10px 40px;
+  padding: 60px 40px 10px 40px;
   color: #989898;
   font-size: 10px;
   text-align: center;

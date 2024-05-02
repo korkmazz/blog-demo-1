@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  transform: translateY(-14px);
+}
+
+.logoText {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}

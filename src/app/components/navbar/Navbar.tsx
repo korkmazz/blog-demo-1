@@ -1,9 +1,11 @@
+import Logo from "../logo/Logo";
 import styles from "./Navbar.module.css";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function Navbar() {
   return (
     <header className={styles.header}>
+      <Logo tint_color="black" />
       <nav>
         <ul className={styles.menu}>
           <li className={styles.menu_item}>SHOP</li>
